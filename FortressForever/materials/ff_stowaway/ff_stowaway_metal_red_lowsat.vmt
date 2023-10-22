@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"%keywords" "FF"
+	"$basetexture" "ff_stowaway/ff_stowaway_metal_red_lowsat"
+	"$surfaceprop" "metal_bouncy"
+	"$bumpmap" "ff/ff_wall_metal01_normal"
+}

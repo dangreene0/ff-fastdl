@@ -1,0 +1,5 @@
+Verdun XMAS beta
+
+Objectives:
+# Get the flag and cap.
+# have fun

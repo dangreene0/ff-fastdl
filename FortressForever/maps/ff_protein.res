@@ -1,0 +1,16 @@
+"resources"
+{
+"maps/ff_protein.bsp" "file"
+"maps/ff_protein.res" "file"
+"maps/ff_protein.lua" "file"
+"materials/dev/dev_measuregeneric22.vmt" "file"
+"materials/dev/dev_measuregeneric22.vtf" "file"
+"materials/dev/dev_measuregeneric39.vmt" "file"
+"materials/dev/dev_measuregeneric39.vtf" "file"
+"materials/dev/dev_measuregeneric40.vmt" "file"
+"materials/dev/dev_measuregeneric40.vtf" "file"
+"materials/dev/dev_measuregeneric46.vmt" "file"
+"materials/dev/dev_measuregeneric46.vtf" "file"
+"materials/vgui/loadingscreens/ff_protein.vmt"  "file"
+"materials/vgui/loadingscreens/ff_protein.vtf"  "file"
+}

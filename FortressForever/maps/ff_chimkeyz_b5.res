@@ -1,0 +1,18 @@
+"resources"
+{
+"maps/ff_chimkeyz_b5.bsp" "file"
+"maps/ff_chimkeyz_b5.res" "file"
+"maps/ff_chimkeyz_b5.lua" "file"
+"materials/skybox/sky_dustdn.vmt" "file"
+"materials/skybox/sky_dustft.vtf" "file"
+"materials/skybox/sky_dustrt.vmt" "file"
+"materials/skybox/sky_dustup.vtf" "file"
+"materials/skybox/sky_dustbk.vmt" "file"
+"materials/skybox/sky_dustdn.vtf" "file"
+"materials/skybox/sky_dustlf.vmt" "file"
+"materials/skybox/sky_dustrt.vtf" "file"
+"materials/skybox/sky_dustbk.vtf" "file"
+"materials/skybox/sky_dustft.vmt" "file"
+"materials/skybox/sky_dustlf.vtf" "file"
+"materials/skybox/sky_dustup.vmt" "file"
+}

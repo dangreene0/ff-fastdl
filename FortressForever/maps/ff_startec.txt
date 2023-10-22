@@ -1,0 +1,11 @@
+ff_startec
+
+Steal the enemy flag while protecting your own
+[1] Take enemy flag
+[2] Bring to capture point on your battlements
+SCORING: 10 points per flag capture
+Team with most points at end of round wins
+
+_map by Geenie
+geenie@xs4all.nl
+or u can find me on #clan187 on Quakenet

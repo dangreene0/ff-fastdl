@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ff_phantom/red-light_stairs"
+	"$surfaceprop" "glass"
+	"%keywords" "ff_phantom"
+}

@@ -1,0 +1,8 @@
+"unlitgeneric"
+{
+	"%keywords" "schtop"
+	$model 1 	"$basetexture" "ff_schtop\redglow"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 0.5
+}

@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "ff_phantom/orc22bhh"
+	"$surfaceprop" "concrete"	
+	"$model" "1"	
+	"$selfillum" 1
+}
+

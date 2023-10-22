@@ -1,0 +1,12 @@
+ff_siden     DAI-OU-JOU 
+
+Objectives: 
+Get the enemey flag, return it to your base.
+Defend your flag. 
+
+Scoring: 
+10 points per capturing.
+
+Mapping by:
+ ULIBOH
+

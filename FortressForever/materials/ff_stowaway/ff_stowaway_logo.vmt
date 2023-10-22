@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "ff_stowaway/ff_stowaway_logo"
+	"$decal" 1
+	"$decalscale" 0.5
+}

@@ -1,0 +1,12 @@
+ff_session
+
+Enter the enemy base and follow the lights to their flag.
+Steal it and bring it back to your base.
+Capture it either on your battlements or in your flagroom.
+
+Each capture is worth 10 points!
+
+Notes:
+Offensive spawns have bags which restore concs.
+The other six bags in each base are available to both teams.
+Jump pads are designated by stationary arrows on the ground.

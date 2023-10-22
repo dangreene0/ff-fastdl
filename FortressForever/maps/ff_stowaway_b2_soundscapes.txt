@@ -1,0 +1,182 @@
+//modified from shutdown2
+
+// stowaway midmap
+"stow.mid"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.4"
+
+	// constant wind base
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient/water/lake_water.wav"
+	}
+
+	// Wind gusts (based on cliffe's cs_assault settings)
+	"playrandom"
+	{
+		"time"		"20,30"
+		"volume"	"0.3,0.4"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/wind/wind_snippet1.wav"
+			"wave"	"ambient/wind/wind_snippet5.wav"
+		}
+	}
+}
+
+// stowaway outside
+"stow.outside"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.4"
+
+	// constant wind base
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+	}
+
+	// Wind gusts (based on cliffe's cs_assault settings)
+	"playrandom"
+	{
+		"time"		"20,30"
+		"volume"	"0.3,0.4"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/wind/wind_snippet1.wav"
+			"wave"	"ambient/wind/wind_snippet2.wav"
+			"wave"	"ambient/wind/wind_snippet3.wav"
+			"wave"	"ambient/wind/wind_snippet4.wav"
+			"wave"	"ambient/wind/wind_snippet5.wav"
+		}
+	}
+}
+
+
+//stowaway ramp room
+"stow.rr"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.5"
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/water/corridor_water.wav"
+	}
+}
+
+
+
+
+// stowaway front door
+"stow.fd"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.5"
+	"playsoundscape"
+	{
+		"name"	"stow.rr"
+		"volume"	"0.5"
+	}
+	"playsoundscape"
+	{
+		"name"	"stow.mid"
+		"volume"	"0.3"
+	}
+}
+
+
+
+
+
+//stowaway flagroom
+"stow.fr "
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.6"
+
+	// General ambient noise
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/trainstation_ambient_loop1.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
+	}
+
+
+
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.3,0.5"
+		"pitch"		"90,100"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/metal4.wav"
+			"wave"	"ambient/materials/rustypipes1.wav"
+			"wave"  "ambient/water/water_pump_drainin1.wav"
+			"wave"  "ambient/wind/wind_med2.wav"
+		}
+	}
+
+}
+
+
+
+//stowaway lower entrance
+"stow.lower"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.6"
+
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/levels/canals/water_rivulet_loop2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient/water/drip_loop1.wav"
+	}
+
+}
+
+
+//stowaway caves
+"stow.cave"
+{
+	"dsp"		"1"
+	"dsp_volume"	"0.6"
+
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
+	}
+
+}

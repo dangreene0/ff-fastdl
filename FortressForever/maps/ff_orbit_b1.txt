@@ -1,0 +1,9 @@
+Orbit_b1 Shutdown Style Capture The Flag
+
+Objectives:
+# Temporarily de-activate the enemy team's security systems by making your way to the security room and stepping on the button.  
+# Once the lasers are de-activated, enter the flag room and steal the enemy flag!  Return the enemy flag to your base to capture.  The capture point is at the main entrance yard.
+
+ff_orbit_b1 by ian (ian.c.moreno@gmail.com
+Original TFC map Orbit_l3 by jungle (intehjungle@hotmail.com)
+skybox by [-B-] (http://www.fpsbanana.com/textures/1931)

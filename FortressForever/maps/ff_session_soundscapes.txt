@@ -1,0 +1,218 @@
+////////////////////////////////////////////////
+//	FF_SESSION SOUNDSCAPES
+//	Most of the soundscapes used are modified versions of the ones found in soundscapes_canals.txt
+//	Feel free to use or modify these for your own use.
+//
+//	GENERIC_INDOORS
+//	GENERIC_OUTDOORS
+//	WATER
+//	INDOORS_DRIPPING
+//	INDOORS_WIND
+//	COURTYARD
+//
+////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////
+//	GENERIC INDOORS
+//	Some digital-sounding ambience and random wierd noises.
+//	Default soundscape.
+////////////////////////////////////////////////
+
+
+"ff_session.generic_indoors"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"wave"		"ambient/atmosphere/ff_ambience.wav"
+		"volume"	"0.5"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"wave"		"ambient/push/inside_amb1.wav"
+		"volume"	"0.25"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"wave"		"ambient/levels/citadel/field_loop3.wav"
+		"volume"	"0.25"
+		"pitch"		"100"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.25,0.40"
+		"pitch"		"100"
+		"time"		"5.0, 15.0"
+		"pitch"		"90,130"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave" "ambient/levels/prison/radio_random3.wav"
+			"wave" "ambient/levels/prison/radio_random7.wav"
+			"wave" "ambient/levels/canals/headcrab_canister_ambient3.wav"
+			"wave" "ambient/levels/citadel/portal_beam_shoot6.wav"
+			"wave" "ambient/machines/machine1_hit2.wav"
+		}
+	}
+}
+
+
+////////////////////////////////////////////////
+//	GENERIC OUTDOORS
+//	Outdoor wind ambience with random gusts.
+//	Used in the yard and courtyard.
+////////////////////////////////////////////////
+
+
+"ff_session.generic_outdoors"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"wave"		"ambient/wind/ff_wasteland_wind.wav"
+		"volume"	"0.8"
+		"pitch"		"100"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"d1_canals.util_windgusts"
+		"volume"	"1.0"
+	}
+}
+
+
+////////////////////////////////////////////////
+//	WATER
+//	Water running and random dripping ambience.
+////////////////////////////////////////////////
+
+
+"ff_session.water"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"wave"		"ambient/atmosphere/ambience5.wav"
+		"volume"	"0.2"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"wave"		"ambient/levels/canals/waterleak_loop1.wav"
+		"volume"	"0.3"
+		"pitch"		"100"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"d1_canals.util_drip"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"d1_canals.util_fardrips"
+		"volume"	"1.0"
+	}
+}
+
+
+////////////////////////////////////////////////
+//	INDOOR DRIPPING
+//	Generic indoor ambience with faint dripping playing from position 0.
+//	Used in lower spire and bunker.
+////////////////////////////////////////////////
+
+
+"ff_session.indoors_dripping"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"		"ff_session.generic_indoors"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"	
+	{
+		"name"		"ff_session.water"
+		"volume"	"0.3"
+		"position"	"0"
+	}
+}
+
+
+////////////////////////////////////////////////
+//	AIRSHAFT
+//	Generic indoor ambience with faint dripping playing from position 0.
+//	Generic indoors as a base, with quiet wind ambience added.
+//	Used in the atrium and the two corridors with open skylights.
+////////////////////////////////////////////////
+
+
+"ff_session.indoors_wind"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"		"ff_session.generic_indoors"
+		"volume"	"1.0"
+	}
+
+	"playlooping"
+	{
+		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
+		"volume"	"0.3"
+		"pitch"		"100"
+	}
+
+}
+
+
+////////////////////////////////////////////////
+//	COURTYARD
+//	Generic outdoor ambience with some indoor ambience added.
+////////////////////////////////////////////////
+
+
+"ff_session.courtyard"
+{
+	"dsp"	"1"
+
+	"playsoundscape"	
+	{
+		"name"		"ff_session.generic_outdoors"
+		"volume"	"1.0"
+	}
+
+	"playlooping"
+	{
+		"wave"		"ambient/push/inside_amb1.wav"
+		"volume"	"0.25"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"wave"		"ambient/levels/citadel/field_loop3.wav"
+		"volume"	"0.25"
+		"pitch"		"100"
+	}
+}
+
+
+////////////////////////////////////////////////
