@@ -1,0 +1,7 @@
+Objectives:
+- Pick up the flag at the middle of the map and hold it in the marked Hold Area.
+
+Tips:
+- You gain Quad Damage and your health and armor will regenerate while holding the flag.
+- The health regeneration is percentual and varies between 5% and 10% depending on the number of players on the server.
+- You can take the flag outside the Hold Area for 10 seconds. After that the flag returns to the middle.
